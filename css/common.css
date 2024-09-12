@@ -489,7 +489,19 @@ code {
   }
   .macbook .desc {
     position: absolute;
-    top: 637px;
+    top: 657px;
+    right: 676px;
+    bottom: 293px;
+    left: 284px;
+    width: 310px;
+    height: 109px;
+    font: 400 12px/1.5 "Inter", Helvetica, Arial, serif;
+    color: black;
+    text-align: justify;
+  }
+  .macbook .descr {
+    position: absolute;
+    top: 627px;
     right: 676px;
     bottom: 293px;
     left: 284px;
@@ -646,11 +658,23 @@ code {
   }
   .macbook .desc1 {
     position: absolute;
-    top: 637px;
+    top: 645px;
     right: 287px;
     bottom: 293px;
     left: 673px;
     width: 310px;
+    height: 109px;
+    font: 400 12px/1.5 "Inter", Helvetica, Arial, serif;
+    color: black;
+    text-align: justify;
+  }
+  .macbook .descr1 {
+    position: absolute;
+    top: 625px;
+    right: 287px;
+    bottom: 293px;
+    left: 673px;
+    width: 480px;
     height: 109px;
     font: 400 12px/1.5 "Inter", Helvetica, Arial, serif;
     color: black;
@@ -850,6 +874,8 @@ code {
 
 .hover-container:hover .subtitle1,
 .hover-container:hover .desc,
+.hover-container:hover .descr,
+.hover-container:hover .descr1,
 .hover-container:hover .info1,
 .hover-container:hover .info11,
 .hover-container:hover .info12 {
